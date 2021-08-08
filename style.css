@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 100px;
+    background-image:url(background.jpg);
+    /*IMAGE LINK: https://s2.best-wallpaper.net/wallpaper/3840x2160/1706/Nuclear-bomb-explosion-mushroom-cloud_3840x2160.jpg*/
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: cover;
+}
+
+.topbar{
+    height: 50px;
+    width: 100%;
+    background-color: #BB2B1B;
+    color: #505050;
+    position: fixed;
+    top: 0;
+    font-family: 'Style Script', cursive;
+    font-size:x-large;
+    text-align: center;
+}
+
+.botbar{
+    height: 50px;
+    width: 100%;
+    background-color: #BB2B1B;
+    color: #505050;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Style Script', cursive;
+    font-size:x-large;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    color: #505050;
+}
+
+.red-button{
+    display: block;
+    margin: 25px auto;
+    color: #BB2B1B;
+    background: #505050;
+    border-radius: 50%;
+    border: none;
+}
